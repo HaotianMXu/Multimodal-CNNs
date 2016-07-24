@@ -8,7 +8,7 @@ Latent Dirichlet Allocation model can be downloaded from https://github.com/blei
 
 # Preprocessing
 To process raw textual data,
-python process_data_channel.py /path/to/wordvec1 /path/to/wordvec2 LengthofWordvec1 LengthofWordvec2 classnum "/raw/data/class0.txt" "/raw/data/class1.txt" ...
+python process_data_channel.py /path/to/wordvec1 /path/to/wordvec2 LengthofWordvec1 LengthofWordvec2 classnum "/raw/data/class0.txt" "/raw/data/class1.txt" ... \n
 OR
 python process_data_multi.py /path/to/wordvec1 /path/to/wordvec2 LengthofWordvec1 LengthofWordvec2 classnum "/raw/data/class0.txt" "/raw/data/class1.txt" ...
 
