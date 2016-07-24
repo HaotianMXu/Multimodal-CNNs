@@ -19,6 +19,6 @@ python conv_multi_w2v.py epochnum batchsize
 
 You can choose epochnum=25 and batchsize=50 as an example.
 
-
+#Acknowledgment
 This code is adapted from https://github.com/yoonkim/CNN_sentence.
 
