@@ -10,20 +10,14 @@ Implementation of ACM-BCB 2016 paper [Text Classification with Topic-based Word 
 
 ## Preprocessing
 To process raw textual data,
-'''
-python process_data_channel.py /path/to/wordvec1 /path/to/wordvec2 LengthofWordvec1 LengthofWordvec2 classnum /path/to/data_class0 /path/to/data_class1  
-'''
+    python process_data_channel.py /path/to/wordvec1 /path/to/wordvec2 LengthofWordvec1 LengthofWordvec2 classnum /path/to/data_class0 /path/to/data_class1  
 OR
-'''
-python process_data_multi.py /path/to/wordvec1 /path/to/wordvec2 LengthofWordvec1 LengthofWordvec2 classnum /path/to/data_class0 /path/to/data_class1
-'''
+    python process_data_multi.py /path/to/wordvec1 /path/to/wordvec2 LengthofWordvec1 LengthofWordvec2 classnum /path/to/data_class0 /path/to/data_class1
+
 ## Running CNN-channel or CNN-concat models
-python conv_channel_w2v.py epochnum batchsize
-
+    python conv_channel_w2v.py epochnum batchsize
 OR
-
-python conv_multi_w2v.py epochnum batchsize
-
+    python conv_multi_w2v.py epochnum batchsize
 You can choose epochnum=25 and batchsize=64 as an example.
 
 ## Acknowledgment
