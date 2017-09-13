@@ -4,7 +4,6 @@ Implementation of [Text Classification with Topic-based Word Embedding and Convo
 In this paper, we propose a novel neural language model, Topic-based Skip-gram, to learn topic-based word embeddings for text classification with CNNs.
 
 Please cite our paper if it helps your research:
-
 <pre><code>@inproceedings{xu2016text,
   title={Text Classification with Topic-based Word Embedding and Convolutional Neural Networks.},
   author={Xu, Haotian and Dong, Ming and Zhu, Dongxiao and Kotov, Alexander and Carcone, April Idalski and Naar-King, Sylvie},
