@@ -8,7 +8,7 @@ Please cite our paper if it helps your research:
 <pre><code>@inproceedings{xu2016text,
   title={Text Classification with Topic-based Word Embedding and Convolutional Neural Networks.},
   author={Xu, Haotian and Dong, Ming and Zhu, Dongxiao and Kotov, Alexander and Carcone, April Idalski and Naar-King, Sylvie},
-  booktitle={BCB},
+  booktitle={The 7th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM BCB)},
   pages={88--97},
   year={2016}
 }</code></pre>
