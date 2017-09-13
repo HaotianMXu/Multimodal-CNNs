@@ -17,8 +17,8 @@ Please cite our paper if it helps your research:
 * Python==2.7
 * Theano==0.7
 * Lasagne==0.1
-* Pre-trained word2vec vectors (CNN-gn in the paper) and Skip-gram model are [available](https://code.google.com/p/word2vec/)
-* Latent Dirichlet Allocation model can be downloaded from [here](https://github.com/blei-lab/lda-c/)
+* Pre-trained word2vec vectors (CNN-gn in the paper) and Skip-gram model are [available](https://code.google.com/p/word2vec/).
+* Latent Dirichlet Allocation model can be [downloaded](https://github.com/blei-lab/lda-c/).
 
 ## Preprocessing
 To process raw textual data,
@@ -36,7 +36,7 @@ OR
 You can choose epochnum=25 and batchsize=64 as an example.
 
 ## Acknowledgment
-The preprocessing code is adapted from [here](https://github.com/yoonkim/CNN_sentence).
+The preprocessing code is adapted from [Dr. Kim's work](https://github.com/yoonkim/CNN_sentence).
 
 
 
