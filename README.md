@@ -14,10 +14,10 @@ Please cite our paper if it helps your research:
 
 ## Requirements
 * Python==2.7
-* Theano==0.7
-* Lasagne==0.1
-* Pre-trained word2vec vectors (CNN-gn in the paper) and Skip-gram model are [available](https://code.google.com/p/word2vec/).
-* Latent Dirichlet Allocation model can be [downloaded](https://github.com/blei-lab/lda-c/).
+* [Theano](http://deeplearning.net/software/theano/)==0.7 
+* [Lasagne](https://lasagne.readthedocs.io/en/latest/)==0.1
+* Pre-trained word2vec vectors (CNN-gn in the paper) and Skip-gram model are available [here](https://code.google.com/p/word2vec/).
+* Latent Dirichlet Allocation model can be downloaded [here](https://github.com/blei-lab/lda-c/).
 
 ## Preprocessing
 To process raw textual data,
@@ -32,7 +32,7 @@ OR
 OR
 
     python conv_multi_w2v.py epochnum batchsize
-You can choose epochnum=25 and batchsize=64 as an example.
+You can choose epochnum=25 and batchsize=64.
 
 ## Acknowledgment
 The preprocessing code is adapted from [Dr. Kim's work](https://github.com/yoonkim/CNN_sentence).
